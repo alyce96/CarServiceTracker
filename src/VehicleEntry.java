@@ -19,6 +19,13 @@ public class VehicleEntry{
         this.vehicleDescription = vehicleDescription;
     }
 
+    public VehicleEntry(String customerName, String phoneNumber, String vehicleDescription, String status) {
+        this.status = status;
+        this.customerName = customerName;
+        this.phoneNumber = phoneNumber;
+        this.vehicleDescription = vehicleDescription;
+    }
+
     //Methods 
 
     public void updateStatus(String newStatus){ //new status should be "in progress" or "complete"
